@@ -1,0 +1,23 @@
+{
+  "name": "cypress_curso",
+  "version": "1.0.0",
+  "description": "Curso de Cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open"
+  },
+  "author": "hana",
+  "license": "ISC",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.3.0",
+    "cypress": "^14.0.3",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-plugin-tab": "^1.0.5",
+    "cypress-xpath": "^2.0.1",
+    "cypress-cucumber-preprocessor": {
+      "nonGlobalStepDefinitions": false,
+      "step_definitions": "cypress/e2e/Pages"
+    }
+  }
+}

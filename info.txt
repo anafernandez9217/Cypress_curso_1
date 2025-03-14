@@ -1,0 +1,22 @@
+1.- npm init
+2.- npm install cypress --save-dev  -> Instalacion
+3.- node_modules\.bin\cypress open  -> Inicia el sistema
+
+4.- npx cypress install --force     -> Forzar la instalación
+5.- npm install -g npx              -> Instalar npx
+6.- 
+
+
+// ACTUALIZACIÓN
+
+#Instalación de la nueva Versión.
+1.- npm install cypress --save-dev
+
+#Instalar NPX  
+2.- https://www.npmjs.com/package.npx 
+
+    npm install -g npx 
+
+3.-Iniciar la App
+  npx cypress open
+

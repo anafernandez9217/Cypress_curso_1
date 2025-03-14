@@ -1,0 +1,37 @@
+[
+    {
+        "nombre": "George",
+        "apellidos": "Aragon",
+        "tel": "5096324794",
+        "email": "GeorgeLAragon@jourrapide.com",
+        "dir": "4010 Calico Drive"
+    },
+    {
+        "nombre": "Pearl",
+        "apellidos": "King",
+        "tel": "2516642056",
+        "email": "PearlDKing@TKCinc.com",
+        "dir": "1131 Lonely Oak Drive"
+    },
+    {
+        "nombre": "Donaldo",
+        "apellidos": "Niceo",
+        "tel": "2564001654",
+        "email": "DonaldKNiceo@teleworm.us",
+        "dir": "1749 Turnpike Drives"
+    },
+    {
+        "nombre": "Georgeo",
+        "apellidos": "Aragono",
+        "tel": "5096324795",
+        "email": "GeorgeLAragono@jourrapide.com",
+        "dir": "4010 Calico Drives"
+    },
+    {
+        "nombre": "Pearlo",
+        "apellidos": "Kingo",
+        "tel": "2516642057",
+        "email": "PearlDKingo@TKCinc.com",
+        "dir": "1131 Lonely Oak Drives"
+    }
+]
