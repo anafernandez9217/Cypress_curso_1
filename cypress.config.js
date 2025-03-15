@@ -15,8 +15,11 @@ module.exports = defineConfig({
     "defaultCommandTiemout": 15000,// dar hasta 15 seg para detectar un elemento dentro de la pagina
     "pageLoadTimeout":9000, 
     "video": true,// solo funciona con comando de run y la ruta exacta:npx cypress run --spec cypress\integration\seccion_6\pageObject_1.cy.js
- 
+    projectId: "k73pnx",
     //"testFiles": "**/*.feature",
 
   },
+
+  
+  
 });
