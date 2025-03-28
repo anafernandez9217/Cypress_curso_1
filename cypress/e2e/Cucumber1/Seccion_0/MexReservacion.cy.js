@@ -39,13 +39,13 @@ describe("Nueva sección Select ", () =>{
         cy.wait(time)
         cy.xpath('//*[@id="btn-timepicker"]/div/div/li[27]').should("be.visible").click()
         cy.wait(time)
-        cy.get('[aria-label="Choose Friday, March 7, 2025 as your check-in date. It’s available."]').should("be.visible").click()
+        cy.get('[aria-label="Choose Friday, March 28, 2025 as your check-in date. It’s available."]').should("be.visible").click()
         cy.wait(time)
         cy.get('#btn-timepicker > span').should("be.visible").click()
         cy.wait(time)
         cy.xpath('//*[@id="btn-timepicker"]/div/div/li[31]').should("be.visible").click()
         cy.wait(time)
-        cy.get('[aria-label="Choose Sunday, March 23, 2025 as your check-out date. It’s available."]').should("be.visible").click()
+        cy.get('[aria-label="Choose Sunday, March 30, 2025 as your check-out date. It’s available."]').should("be.visible").click()
         cy.wait(time)
         // Seleccion de unidad
         cy.get('.wrapper-mex-form-input-btn > .ml-auto').should("be.visible").click()
@@ -81,8 +81,11 @@ describe("Nueva sección Select ", () =>{
         cy.wait(time)
 
         // Envio de Input final: btn-confirm
-        ///cy.get(':nth-child(11) > .btn-confirm').should("be.visible").click()
-        cy.get(':nth-child(11) > .btn-confirm').should( 'exist')
+        //cy.get(':nth-child(11) > .btn-confirm').should( 'exist')
+        cy.get(':nth-child(11) > .btn-confirm').should("be.visible").click()
+        cy.wait(time)
+        // Para grabar video
+        //npx cypress run --spec cypress\e2e\Seccion_0\MexReservacion.cy.js
   
     })
 

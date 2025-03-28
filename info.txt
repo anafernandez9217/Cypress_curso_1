@@ -25,3 +25,31 @@
 npx cypress run --record --key 4c3a3488-d778-4a8c-b301-adb62be8c726
 
 --------------------------------------------------------------------
+
+LOS EMOTICONES MAS BELLOS
+https://fsymbols.com/es/emoticones/
+
+Orden para Cucumber
+https://testgrid.io/blog/cypress-with-cucumber/
+
+
+Jenkins
+http://localhost:8086/job/Pipeline/
+
+
+Lambdatest
+https://www.lambdatest.com/support/docs/supported-cypress-versions/
+https://accounts.lambdatest.com/security/username-accesskey
+
+
+BrowserStack
+https://live.browserstack.com/dashboard#os=ios&os_version=14.0&device=iPhone+12+Pro+Max&zoom_to_fit=true&full_screen=true&url=www.browserstack.com%2Fwelcome&speed=1
+
+
+Hace las pruebas __solo con clicks
+
+Cypress Studio
+https://docs.cypress.io/app/guides/cypress-studio#__docusaurus_skipToContent_fallback
+
+Cypress Recorder
+https://chromewebstore.google.com/detail/cypress-chrome-recorder/fellcphjglholofndfmmjmheedhomgin?hl=es
